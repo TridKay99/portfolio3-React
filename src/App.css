@@ -1,33 +1,141 @@
+* {
+  margin: 0px;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  /* overflow-y: hidden;
+  overflow: hidden; */
+  background: black;
+}
+
+:root {
+  font-size: 6px;
+}
+
+#root {
+  height: 100%;
+  width: 100%;
+  overflow-y: hidden;
+  overflow: hidden;
+}
+
+
+/* Title page */
+.titleWords h1 {
+  font-size: 5rem;
+}
+
+.titleWords p {
+  font-size: 2.4rem;
+}
 .App {
-  text-align: center;
+  height: 100%;
+  width: 100%;
+  overflow-y: hidden;
+  overflow: hidden;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+.firstContainer {
+  height: 100%;
+  width: 100%;
+  background-image: url("balloonHappy.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 180%;
+  padding-top: 100px;
+  color: white;
+  overflow-y: hidden;
+  overflow: hidden;
+  padding-left: 4%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.titleWords {
+  width: 50%;
+  font-size: 1.5rem;
+}
+
+.links {
+  height: 40%;
+  width: 40%;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+.picLinks {
+  height: 80%;
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+}
+
+.titleLinks {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  color: white
+}
+
+.fbLink {
+  height: 40px;
+  width: 40px;
+}
+
+.gitLink {
+  height: 40px;
+  width: 40px;
+}
+
+.linkLink {
+  height: 40px;
+  width: 45px;
+}
+
+a {
+  text-decoration: none;
   color: white;
+  font-size: 2rem;
 }
 
-.App-link {
-  color: #61dafb;
-}
+/* Skills Page */
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+
+
+
+
+
+
+
+
+
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  :root {
+    font-size: 7px;
   }
-  to {
-    transform: rotate(360deg);
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  :root {
+    font-size: 8px;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  :root {
+    font-size: 9px;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  :root {
+    font-size: 11px;
   }
 }
