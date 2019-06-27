@@ -11,8 +11,10 @@ function Title() {
   return (
     <div className="firstContainer">
       <div className="titleWords">
-        <h1>Tristan Kay</h1>
-        <p>Full-stack web developer
+        <div className="nameContainer">
+          <h1>Tristan </h1><h1 className="Kay">Kay</h1>
+        </div>
+        <p>Full-stack web developer,
           film-editor & student at
           Coder Academy</p>
       </div>
@@ -32,8 +34,8 @@ function Title() {
           <Link to="/skills">
               <p>Skills</p>
           </Link>
-          <Link to="/projects">
-            <p>projects</p>
+          <Link id="projectLink" to="/projects">
+            <p>Projects</p>
           </Link>
           <Link to="/contact">
             <p>Contact Me</p>

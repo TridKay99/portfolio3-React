@@ -1,12 +1,11 @@
 * {
   margin: 0px;
+  font-family: 'Raleway', sans-serif;
 }
 
 body {
   height: 100vh;
   width: 100vw;
-  /* overflow-y: hidden;
-  overflow: hidden; */
   background: black;
 }
 
@@ -17,24 +16,24 @@ body {
 #root {
   height: 100%;
   width: 100%;
-  overflow-y: hidden;
-  overflow: hidden;
 }
 
+#projectLink {
+  color: orange
+}
 
 /* Title page */
 .titleWords h1 {
-  font-size: 5rem;
+  font-size: 9rem;
 }
 
 .titleWords p {
-  font-size: 2.4rem;
+  font-size: 3rem;
+  margin-left: 2%;
 }
 .App {
   height: 100%;
   width: 100%;
-  overflow-y: hidden;
-  overflow: hidden;
 }
 
 .firstContainer {
@@ -44,23 +43,34 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: 180%;
-  padding-top: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   color: white;
-  overflow-y: hidden;
-  overflow: hidden;
-  padding-left: 4%;
 }
 
 .titleWords {
   width: 50%;
   font-size: 1.5rem;
+  padding-left: 4%;
+}
+
+.nameContainer {
+  display: flex;
+}
+
+.Kay {
+  margin-left: 5%;
+  color: rgb(255, 154, 46)
 }
 
 .links {
   height: 40%;
   width: 40%;
+  padding-top: 2%;
   display: flex;
   flex-direction: column;
+  padding-left: 4%;
 }
 
 .picLinks {
@@ -68,6 +78,7 @@ body {
   width: 100%;
   display: flex;
   align-items: flex-end;
+  margin-top: 15%;
 }
 
 .titleLinks {
@@ -75,7 +86,11 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  color: white
+  color: white;
+}
+
+.titleLinks a {
+  font-family: 'Overpass', sans-serif;
 }
 
 .fbLink {
@@ -86,28 +101,169 @@ body {
 .gitLink {
   height: 40px;
   width: 40px;
+  padding-left: 20%;
 }
 
 .linkLink {
   height: 40px;
   width: 45px;
+  padding-left: 35%;
 }
 
 a {
   text-decoration: none;
   color: white;
-  font-size: 2rem;
+  font-size: 3rem;
 }
 
 /* Skills Page */
+.secondContainer {
+  height: 100%;
+  width: 100%;
+  text-align: center;
+}
+
+.skillsTitle {
+  margin-right: 3%;
+}
+
+.skillsTitle h1 {
+  font-size: 4rem;
+}
+
+.skillsLinks {
+  height: 7%;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  text-align: center;
+}
+
+.keySkillsContainer {
+  display:flex;
+  justify-content: center;
+  padding-top: 7%;
+}
+
+.keySkills {
+  width: 50%;
+  padding-top: 3%;
+}
+
+.skillLabel {
+  padding-bottom: 7%;
+}
+
+.skillLabel p {
+  font-size: 1.9rem;
+}
+
+/* Projects Page */
+
+.projectsContainer {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between
+}
+
+.projectsTitleContainer {
+  display: flex;
+  justify-content: center;
+}
+
+#projTitle {
+  color: orange;
+}
+
+/* PROJECT 1 */
+#skillsPage {
+  color: orange;
+}
+
+.singleProj {
+  height: 50%;
+  width: 80%;
+  margin-top: 5%;
+}
+
+.singleProj h2 {
+  font-size: 3rem
+}
+
+.singleProj p {
+  font-size: 2rem
+}
+
+.singleProj img {
+  height: 50%;
+  width: 80%;
+}
+
+.gitInt {
+  height: 20%;
+  padding-top: 5%;
+}
+
+.signin {
+  height: 40%;
+  width: 40%;
+  color: orange
+}
+
+.gitLeave {
+  height: 40%;
+  width: 40%;
+  color: orange
+}
+
+.skillsTitleContainer {
+  display: flex;
+  justify-content: center;
+}
 
 
+/* ----------------------------- */
+/* Project 2 */
 
 
+/* Contact Page */
 
+.contactTitleContainer {
+  display: flex;
+  justify-content: center;
+  margin-left: 1%;
+  width: 100%;
+}
 
+#me {
+  color: orange
+}
 
+.contactContainer{
+  height: 50%;
+  /* padding: 5%; */
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
+.contactContainer h1 {
+  padding-top: 5%;
+  font-size: 5rem;
+}
+
+.contactContainer p {
+  font-size: 3rem;
+  padding: 5%;
+}
+
+.contactContainer a {
+  color: orange;
+}
 
 
 
@@ -131,6 +287,133 @@ a {
   :root {
     font-size: 9px;
   }
+
+  .nameContainer {
+    display: flex;
+  }
+
+  #projectLink {
+    color: white
+  }
+
+  .Kay {
+    margin-left: 5%;
+    color: rgb(255, 154, 46)
+  }
+
+  .titleWords {
+    width: 40%;
+  }
+
+  .titleWords h1 {
+    font-size: 10rem;
+  }
+
+  .titleWords p {
+    font-size: 2rem;
+    width: 55%;
+    margin-left: 4%;
+    margin-top: 2%;
+  }
+
+  .fbLink {
+    height: 70px;
+    width: 70px;
+
+  }
+  
+  .gitLink {
+    height: 70px;
+    width: 70px;
+  }
+  
+  .linkLink {
+    height: 70px;
+    width: 80px;
+  }
+
+  .firstContainer {
+    background-size: 100%;
+  }
+
+  a {
+    text-decoration: none;
+    color: white;
+    font-size: 2rem;
+    opacity: 0.6;
+  }
+
+  a:hover {
+    opacity: 1;
+    color: orange
+  }
+
+  .secondContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .skillsLinks {
+    width: 80%;
+  }
+
+  .keySkillsContainer {
+    height: 60%;
+    width: 70%;
+  }
+
+  .keySkills {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    background: none;
+  }
+
+  .react-reveal.skillLabel {
+    padding: 4.3%;
+  }
+
+  .links{
+    margin-left: 1.5%;
+  }
+
+  .contactTitleContainer {
+    margin-left: 8%;
+  }
+
+  .contactContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  .contactContainer p {
+    font-size: 3rem;
+    padding: 5%;
+    margin-right: 4%;
+  }
+
+  .singleProj img {
+    height: 70%;
+    width: 50%;
+  }
+  
+  .contactContainer h1 {
+    padding-top: 5%;
+    font-size: 5rem;
+    padding-bottom: 10%;
+  }
+
+  .keySkillsContainer {
+    width: 90%;
+    margin-left: 10%;
+  }
+
+  /* Projects */
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
