@@ -43,7 +43,7 @@ function Skills() {
       <div className="secondContainer">
         <div className="skillsTitle">
           <div className="skillsTitleContainer">
-            <h1>Skills</h1><h1 id="skillsPage"> Page</h1>
+            <h1 id="skillsPage">Skills</h1><h1> Page</h1>
           </div>
         </div>
         <div className="skillsLinks">

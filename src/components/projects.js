@@ -20,7 +20,7 @@ function Projects() {
       <div className="secondContainer">
         <div className="skillsTitle">
           <div className="projectsTitleContainer">
-          <h1>Projects</h1><h1 id="projTitle">Page</h1>
+          <h1 id="projTitle">Projects</h1><h1>Page</h1>
           </div>
         </div>
         <div className="skillsLinks">

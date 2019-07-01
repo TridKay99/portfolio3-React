@@ -107,7 +107,7 @@ body {
 .linkLink {
   height: 40px;
   width: 45px;
-  padding-left: 35%;
+  /* padding-left: 15%; */
 }
 
 a {
@@ -291,10 +291,15 @@ a {
   .nameContainer {
     display: flex;
   }
-
+ 
   #projectLink {
     color: white
   }
+
+  #projectLink:hover {
+    color: orange
+  }
+
 
   .Kay {
     margin-left: 5%;
@@ -319,17 +324,22 @@ a {
   .fbLink {
     height: 70px;
     width: 70px;
-
   }
   
   .gitLink {
     height: 70px;
     width: 70px;
+    padding-left: 20%;
+  }
+
+  .gitLink:hover {
+    color: blue;
   }
   
   .linkLink {
     height: 70px;
     width: 80px;
+    padding-left: 30%;
   }
 
   .firstContainer {
@@ -375,7 +385,7 @@ a {
     padding: 4.3%;
   }
 
-  .links{
+  .links {
     margin-left: 1.5%;
   }
 
@@ -411,6 +421,10 @@ a {
   .keySkillsContainer {
     width: 90%;
     margin-left: 10%;
+  }
+
+  .projectsContainer img {
+    width: 35%;
   }
 
   /* Projects */
