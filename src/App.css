@@ -375,11 +375,12 @@ a {
   }
 
   .keySkills {
-    width: 80%;
+    width: 70%;
     height: 100%;
     display: flex;
     flex-wrap: wrap;
     background: none;
+    padding-right: 10%;
   }
 
   .react-reveal.skillLabel {
