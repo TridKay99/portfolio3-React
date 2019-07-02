@@ -1,9 +1,6 @@
 import React from 'react';
 import '../App.css';
 
-
-import Slide from 'react-reveal/Slide';
-
 import pong from '../projectImg/pong.png'
 import Netforce from '../projectImg/Netforce.png'
 import RM from '../projectImg/rickandmorty.png'

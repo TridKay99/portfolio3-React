@@ -1,6 +1,6 @@
 * {
   margin: 0px;
-  font-family: 'Raleway', sans-serif;
+  font: inherit;
 }
 
 body {
@@ -24,6 +24,7 @@ body {
 
 /* Title page */
 .titleWords h1 {
+  font-family: 'Raleway', sans-serif;
   font-size: 9rem;
 }
 
@@ -107,7 +108,7 @@ body {
 .linkLink {
   height: 40px;
   width: 45px;
-  /* padding-left: 15%; */
+  padding-left: 25%;
 }
 
 a {
@@ -339,7 +340,7 @@ a {
   .linkLink {
     height: 70px;
     width: 80px;
-    padding-left: 30%;
+    margin-left: 30%;
   }
 
   .firstContainer {
