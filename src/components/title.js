@@ -21,13 +21,13 @@ function Title() {
       <div className="links">
         <div className="picLinks">
           <a href="https://www.facebook.com/tris.kay.9">
-          <img className="fbLink" src={fb}/>
+          <img className="fbLink" alt={''} src={fb}/>
           </a>
           <a href="https://github.com/TridKay99">
-          <img className="gitLink" src={git}/>
+          <img className="gitLink" alt={''} src={git}/>
           </a>
           <a href="https://www.linkedin.com/in/tristan-kay-61459911a/">
-          <img className="linkLink" src={linked}/>
+          <img className="linkLink" alt={''} src={linked}/>
           </a>
         </div>
         <div className="titleLinks">

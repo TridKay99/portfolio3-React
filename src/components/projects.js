@@ -38,7 +38,7 @@ function Projects() {
             <p>Using a Rick and Morty API I created a quiz that 
               tells you which of the 495 Rick and Morty 
               characters you are. Created with Javascript</p>
-              <img src={RM}/>
+              <img src={RM}  alt={''}/>
               <div className="gitInt">
               <a href="https://distracted-lichterman-b05c7e.netlify.com/">
                 <FaSignInAlt className="signin"/>
@@ -79,7 +79,7 @@ function Projects() {
           <div className="singleProj">
             <h2>Pong</h2>
             <p>Fully functional Pong game vs AI. Made with Javascript</p>
-              <img src={pong} img={''}/>
+              <img src={pong} alt={''}/>
               <div className="gitInt">
               <a href="https://github.com/TridKay99/JS-Pong">
                 <FaGithubAlt className="gitLeave"/>
@@ -89,7 +89,7 @@ function Projects() {
           <div className="singleProj">
             <h2>Top 10 pop charts</h2>
             <p>Using an API to keep up to date with the top 10 pop charts. Updates with the API. Created with React & Express.</p>
-              <img src={charts}/>
+              <img src={charts} alt={''}/>
               <div className="gitInt">
               <a href="https://github.com/TridKay99/musicAPI-React">
                 <FaGithubAlt className="gitLeave"/>

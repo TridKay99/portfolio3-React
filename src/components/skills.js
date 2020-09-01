@@ -22,7 +22,7 @@ function Greetings(props) {
   return (
     <Fade bottom cascade>
     <div className="skillLabel">
-      <img src={props.img} width="70" height="70"/>
+      <img src={props.img} alt={''} width="70" height="70"/>
       <p>{props.name}</p>
     </div>
     </Fade>
