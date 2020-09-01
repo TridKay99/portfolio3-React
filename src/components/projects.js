@@ -52,7 +52,7 @@ function Projects() {
             <h2>Netforce</h2>
             <p>An application to help you find a movie to watch using an API
                for Netflix and Stan. Made with HTML, Javascript</p>
-              <img src={Netforce}/>
+              <img src={Netforce} alt={''}/>
               <div className="gitInt">
               <a href="https://elegant-agnesi-5a943c.netlify.com/shityaknickers.html">
                 <FaSignInAlt className="signin"/>
@@ -66,7 +66,7 @@ function Projects() {
             <h2>HelpingHand</h2>
             <p>An application that connects workers with jobs that anyone can post. 
               Created with Ruby on Rails</p>
-              <img src={HelpingHand}/>
+              <img src={HelpingHand} alt={''}/>
               <div className="gitInt">
               <a href="https://damp-forest-41444.herokuapp.com/">
                 <FaSignInAlt className="signin"/>
@@ -79,7 +79,7 @@ function Projects() {
           <div className="singleProj">
             <h2>Pong</h2>
             <p>Fully functional Pong game vs AI. Made with Javascript</p>
-              <img src={pong}/>
+              <img src={pong} img={''}/>
               <div className="gitInt">
               <a href="https://github.com/TridKay99/JS-Pong">
                 <FaGithubAlt className="gitLeave"/>
